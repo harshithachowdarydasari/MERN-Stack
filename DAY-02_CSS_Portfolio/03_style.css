@@ -1,0 +1,15 @@
+h1 {
+    color: purple;
+}
+
+p {
+    color: green;
+    font-size: 20px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+}

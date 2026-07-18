@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope</title>
+</head>
+<body>
+    <h1>Variable Scope</h1>
+
+    <script>
+        let message = "Global Variable";
+
+        function showMessage() {
+            let text = "Local Variable";
+            document.write(message + "<br>");
+            document.write(text);
+        }
+
+        showMessage();
+    </script>
+</body>
+</html>
