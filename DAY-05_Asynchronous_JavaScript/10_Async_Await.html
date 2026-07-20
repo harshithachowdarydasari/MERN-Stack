@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Async Await</title>
+</head>
+<body>
+    <script>
+        async function message() {
+            return "Hello Async Await";
+        }
+
+        async function display() {
+            let result = await message();
+            console.log(result);
+        }
+
+        display();
+    </script>
+</body>
+</html>

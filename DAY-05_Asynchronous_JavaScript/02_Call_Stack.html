@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Call Stack</title>
+</head>
+<body>
+    <script>
+        function first() {
+            console.log("First Function");
+        }
+
+        function second() {
+            first();
+            console.log("Second Function");
+        }
+
+        second();
+    </script>
+</body>
+</html>

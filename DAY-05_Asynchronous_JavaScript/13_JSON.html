@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON</title>
+</head>
+<body>
+    <script>
+        let student = {
+            name: "Harshitha",
+            age: 22
+        };
+
+        let json = JSON.stringify(student);
+
+        console.log(json);
+
+        let object = JSON.parse(json);
+
+        console.log(object);
+    </script>
+</body>
+</html>

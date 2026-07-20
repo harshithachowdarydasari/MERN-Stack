@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promise Chaining</title>
+</head>
+<body>
+    <script>
+        Promise.resolve(10)
+            .then(value => value * 2)
+            .then(value => value + 5)
+            .then(value => console.log(value));
+    </script>
+</body>
+</html>
