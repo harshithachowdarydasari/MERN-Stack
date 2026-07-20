@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Element</title>
+</head>
+<body>
+    <button onclick="createElement()">Create</button>
+
+    <script>
+        function createElement() {
+            let p = document.createElement("p");
+            p.innerHTML = "New Paragraph";
+            document.body.appendChild(p);
+        }
+    </script>
+</body>
+</html>

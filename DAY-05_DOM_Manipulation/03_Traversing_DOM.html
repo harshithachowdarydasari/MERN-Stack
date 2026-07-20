@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Traversing DOM</title>
+</head>
+<body>
+    <div id="parent">
+        <h2>Heading</h2>
+        <p>Paragraph</p>
+    </div>
+
+    <script>
+        let parent = document.getElementById("parent");
+
+        console.log(parent.children);
+        console.log(parent.firstElementChild);
+        console.log(parent.lastElementChild);
+    </script>
+</body>
+</html>

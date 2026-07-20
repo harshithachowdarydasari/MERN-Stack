@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Updating HTML & CSS</title>
+</head>
+<body>
+    <h1 id="heading">Hello</h1>
+
+    <button onclick="changeText()">Update</button>
+
+    <script>
+        function changeText() {
+            let heading = document.getElementById("heading");
+
+            heading.innerHTML = "Welcome";
+            heading.style.color = "blue";
+            heading.style.fontSize = "40px";
+        }
+    </script>
+</body>
+</html>

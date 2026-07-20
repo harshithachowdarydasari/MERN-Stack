@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Session Storage</title>
+</head>
+<body>
+    <button onclick="save()">Save</button>
+    <button onclick="show()">Show</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        function save() {
+            sessionStorage.setItem("course", "JavaScript");
+        }
+
+        function show() {
+            document.getElementById("result").innerHTML =
+                sessionStorage.getItem("course");
+        }
+    </script>
+</body>
+</html>

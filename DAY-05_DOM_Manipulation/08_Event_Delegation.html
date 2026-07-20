@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Delegation</title>
+</head>
+<body>
+    <ul id="list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <script>
+        document.getElementById("list").addEventListener("click", function(event) {
+            alert(event.target.innerHTML);
+        });
+    </script>
+</body>
+</html>

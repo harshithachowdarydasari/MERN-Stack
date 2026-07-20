@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Storage</title>
+</head>
+<body>
+    <button onclick="save()">Save</button>
+    <button onclick="show()">Show</button>
+
+    <h2 id="result"></h2>
+
+    <script>
+        function save() {
+            localStorage.setItem("name", "Harshitha");
+        }
+
+        function show() {
+            document.getElementById("result").innerHTML =
+                localStorage.getItem("name");
+        }
+    </script>
+</body>
+</html>
